@@ -453,11 +453,93 @@ address {
 
 .modal-close-icon {
 }
-.title {
+.modal-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 1.2;
   text-align: center;
   margin-bottom: 20px;
+}
+
+.modal-field {
+  margin-bottom: 24px;
+}
+.modal-label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  display: block;
+  margin-bottom: 2px;
+  margin-left: 12px;
+}
+.modal-input {
+  border: 2px solid transparent;
+  border-radius: 30px;
+  width: 100%;
+  height: 48px;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #fff;
+  outline: transparent;
+  padding-left: 12px;
+}
+
+.modal-input:focus {
+  border-color: #16ac20;
+}
+.modal-send-btn {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  border: 2px solid #7eb101;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 106px;
+  height: 40px;
+  background: #fff;
+  display: block;
+  margin: 0 auto;
+}
+
+.modal-field-email {
+  margin-bottom: 32px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.modal-check {
+}
+.check-input {
+}
+
+.check-input:checked + .check-label > .check-box {
+  fill: #fff;
+  background-color: #404bbf;
+  border: none;
+}
+.check-box {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  fill: transparent;
+}
+.check-icon {
+}
+.check-link {
+}
+.modal-send-btn {
 }
